@@ -25,3 +25,35 @@ h1 {
 .night-border {
   border-bottom: 3px solid #166484;
 }
+
+.btn-group {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.btn {
+  color: #f8f9fa;
+  margin-top: 16px;
+}
+
+.btn:focus{
+  background-color: #0562c7;
+}
+
+
+
+/* 
+.btn-group {
+  display: flex;
+  margin: 0 10px;
+}
+
+.btn-group>input[type="radio"] {
+  display: none;
+}
+
+.button-check:checked {
+  color: #000000;
+} */
